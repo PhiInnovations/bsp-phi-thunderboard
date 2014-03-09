@@ -18,11 +18,11 @@ Download the BSP source:
 
  $: PATH=${PATH}:~/bin
 
- $: mkdir phi-bsp-thunderboard
+ $: mkdir bsp-phi-thunderboard
 
- $: cd phi-bsp-thunderboard
+ $: cd bsp-phi-thunderboard
 
- $: repo init -u https://github.com/PhiInnovations/phi-bsp-thunderboard -b dora
+ $: repo init -u https://github.com/PhiInnovations/bsp-phi-thunderboard -b dora
 
  $: repo sync
 
@@ -30,9 +30,9 @@ Once this has complete, you will have all you need. To start a build, do:
 
  $: source ./setup-environment build
 
- $: bitbake bps-phi-minimal
+ $: bitbake bsp-phi-minimal
 
 You can use any directory to host your build.
 
-The source code will be checked out at phi-bsp-thunderboard/sources.
+The source code will be checked out at bsp-phi-thunderboard/sources.
 
