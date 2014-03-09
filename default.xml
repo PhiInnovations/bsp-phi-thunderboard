@@ -17,7 +17,7 @@
   <project remote="freescale" revision="dora" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
   <project remote="phi" revision="dora" name="meta-phi-mdpimx28" path="sources/meta-phi-mdpimx28"/>
-  <project remote="phi" revision="dora" name="bsp-thunderboard-base" path="sources/base">
+  <project remote="phi" revision="dora" name="bsp-phi-thunderboard-base" path="sources/base">
     <copyfile dest="README" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
